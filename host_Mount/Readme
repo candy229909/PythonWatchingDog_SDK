@@ -1,0 +1,5 @@
+在docker啟動時設好掛載點才可用
+
+設定語言
+docker build -t 資料夾小寫名字 .
+docker run -d -v /mnt/customer_data:/mnt/customer_data 資料夾小寫名字
