@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-@app.route('/recognize', methods=['POST'])
+@app.route('/process', methods=['POST'])
 def recognize_image():
     # check file
     if 'file' not in request.files:
